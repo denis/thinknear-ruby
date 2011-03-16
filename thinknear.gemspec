@@ -36,7 +36,8 @@ Gem::Specification.new do |s|
     "lib/think_near/offer.rb",
     "lib/thinknear.rb",
     "spec/spec_helper.rb",
-    "spec/thinknear_spec.rb"
+    "spec/thinknear_spec.rb",
+    "thinknear.gemspec"
   ]
   s.homepage = %q{http://github.com/denis/thinknear}
   s.licenses = ["MIT"]
