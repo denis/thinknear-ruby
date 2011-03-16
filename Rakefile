@@ -15,8 +15,7 @@ Jeweler::Tasks.new do |gem|
   gem.name = "thinknear"
   gem.homepage = "http://github.com/denis/thinknear"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A ThinkNear Ruby Client}
   gem.email = "barushev@gmail.com"
   gem.authors = ["Denis Barushev"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
