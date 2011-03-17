@@ -10,6 +10,7 @@ require 'think_near/offer'
 module ThinkNear
   API_VERSION = '1.0'.freeze
   REALM = 'http://api-sandbox.thinknear.com'
+  VERSION = File.read(File.join(File.dirname(__FILE__), '..', 'VERSION'))
 
   class ThinkNearError < StandardError; end
   class Unauthorized < ThinkNearError; end

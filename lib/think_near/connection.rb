@@ -1,8 +1,8 @@
 require 'oauth'
+require 'json'
 
 module ThinkNear
   class Connection
-
     attr_accessor :debug
 
     def initialize(token, secret)
@@ -22,7 +22,7 @@ module ThinkNear
     private
 
     def request(method, endpoint, data)
-      headers = { 'User-Agent' => 'ThinkNear Ruby Client' }
+      headers = { 'User-Agent' => "ThinkNear Ruby Client v#{VERSION}"}
 
       if [:get].include?(method) && !data.nil?
         endpoint = endpoint + '?' + build_query(data)
